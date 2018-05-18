@@ -1,0 +1,21 @@
+String sentence = "erikmenhart";
+int count = sentence.length();
+char data[] = {'a', 'e', 'i', 'u', 'o'};
+int i=0;
+
+void settings() {
+    size(300, 300);
+    println(sentence.charAt(0));
+}
+
+void setup() {
+  sentence = "Erik Menhart";
+  textSize(30);
+text(sentence, 70, 100);
+text(count, 70, 130);
+
+}
+
+void draw() {
+  noLoop(); //draw doesn't need to happen for this exercise
+}
